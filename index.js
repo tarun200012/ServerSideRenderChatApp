@@ -1,5 +1,6 @@
 const express = require('express');
 const router = require("./src/routes/index")
+const userRouter = require("./src/routes/users")
 
 const app = express();
 
